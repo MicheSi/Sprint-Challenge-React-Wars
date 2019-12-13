@@ -12,8 +12,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <div>
       <h1 className="Header">React Wars</h1>
+      </div>
+      <div>
       <PersonCard />
+      </div>
     </div>
   );
 }
