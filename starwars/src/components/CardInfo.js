@@ -20,9 +20,14 @@ export default function CardInfo() {
     return (
         <div className="charCard">
             {character.map((person, index) => {
-                return <CharCard key={index} name={person.name} birth={person.birth_year} height={person.height} hair={person.hair_color} eyes={person.eye_color} />
+                return <CharCard
+                key={index}
+                name={person.name}
+                birth={person.birth_year}
+                height={person.height}
+                hair={person.hair_color}
+                eyes={person.eye_color} />
             })}
-
         </div>
     )
 }

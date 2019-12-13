@@ -8,6 +8,7 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  margin-top: 10%;
 }
 /* write your parent styles in here for your App.js */
 .card {
@@ -28,6 +29,7 @@
 .name {
   font-size: 1.8rem;
   font-weight: bold;
+  text-shadow: 1px 1px 5px #4682B4;
 }
 
 .birth {
